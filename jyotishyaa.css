@@ -73,7 +73,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 20px;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
+    background-color: #FFDCA9;
     height: 60px;
     align-items: center;
 }
@@ -85,7 +86,7 @@
     font-family: sans-serif;
 }
 .section{
-    background-color: rgb(213, 165, 74);
+    background-color: white;
     margin: 10px;
 }
 .section img{
@@ -134,22 +135,21 @@
 .section5{
     display: flex;
     justify-content:space-around;
-    padding: 0px 25px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    padding: 0px 15px;
+    margin-top: 0px;
     font-family: sans-serif;
-    /* background-color: #d1a535; */
+    background-color: #FFDCA9;
 }
 
 .section6{
     display: flex;
     justify-content:space-around;
     padding: 0px 25px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px;
+    padding-bottom: 100px; */
     font-family: sans-serif;
-    background-color: #cca63c;
+    background-color: white;
 }
 
 .sub img{
@@ -213,20 +213,43 @@
 }
 
 .sub2{
-    outline: none;
+    /* display: block; */
+    /* outline: none; */
     border: 5px solid #dce1f0;
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Arvo', cursive;
-    color: #dab304;
-    text-shadow: 3px 0 #DBEDF3;
+    color: black;
+    /* text-shadow: 3px 0 #DBEDF3; */
     border-radius: 15px;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    text-align:bottom;
-    margin: 30px;
+    display:inline;
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+    /* padding-top: 0%; */
     background-color: white;
 
+}
+.t{
+    text-decoration: solid;
+    padding-top: 0px;
+}
+
+.opt{
+    margin-top: 0;
+    padding-top: 0;
+}
+.ytube{
+    height:15rem;
+    width: 25rem;
+    padding-top: 0;
+    display: inline-block;
+}
+
+#comp{
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: solid;
+    font-family: sans-serif;
 }
 
 #benfit{
@@ -234,7 +257,7 @@
     opacity: 0;
 }
 #yvideo{
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 #ser{
